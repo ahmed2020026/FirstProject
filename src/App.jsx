@@ -5,10 +5,12 @@ import NavBar from './component/Navbar'
 import Home from './Home'
 import About from './About'
 import Services from './Services'
-import Pricing from './Pricing'
+import Blog from './Blog'
 import Contact from './Contact'
 import Sign from './Sign'
 import Footer from './component/footer'
+import Pricing from './Pricing'
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/services' element={<Services/>}/>
+            <Route path='/Blog' element={<Blog/>}/>
             <Route path='/pricing' element={<Pricing/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/Sign' element={<Sign/>}/>

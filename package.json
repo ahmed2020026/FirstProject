@@ -1,16 +1,16 @@
 {
+  "hamepage" : "https://AhmedOrgline.github.io/React_project",
   "name": "react-vite",
-  "homepage": "https://AhmedOrgline.github.io/react/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
